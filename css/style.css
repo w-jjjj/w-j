@@ -1,0 +1,125 @@
+html{height:100%;
+    width: 100%;
+  -webkit-text-size-adjust: 100%;
+    /*font-size: 12px;*/}
+
+@media (max-width: 843px) {
+   .global{
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 6px;
+    margin-bottom:6px;}
+    
+   .parallax{margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 6px;
+    margin-bottom:6px;}
+}
+
+/*vers ordinateur*/
+@media (min-width: 844px) {
+.global{
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 8px;
+    margin-bottom:8px;}
+    
+.parallax{margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 8px;
+    margin-bottom:8px;}      
+}
+
+
+body{ 
+    position: fixed;
+    height:100%;
+    width: 100%;
+    margin:0;
+    padding:0;
+    font-family: 'Helvetica Neue','arial', 'avant garde', sans-serif;
+    letter-spacing: -0.1px;
+    background-color: #fdfdfd;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.1;
+    color: #b7b7b7;
+    
+    }
+
+
+.global{}
+
+.top{
+    display: flex;
+    flex-direction: raw;
+    
+}
+
+.row1item1{
+    position: relative;
+    width: 25%;}
+.colomnone{width: 25%; /*z-index: 2;*/}
+
+
+.row1item2{
+    position: relative;
+    width: 50%;}
+.colomntwo{width: 75%; /*z-index: 2;*/}
+
+
+/*.row1item3{
+    position: relative;
+    width: 25%;
+    text-align: right;}
+.colomnthree{width: 25%; 
+    text-align: right;
+    }*/
+
+
+.hiddencontent1{
+    z-index: 1;
+    display: flex;
+    /*flex-direction: column;*/
+    flex-direction: raw;
+    margin-top: 7px;
+    padding-top: 2px;
+    border-top: 1px solid;
+}
+/*#hiddencontent1{
+    z-index: 1;
+    margin-top: 7px;
+    padding-top: 2px;
+    border-top: solid;
+opacity: 0; transition: .5s ease opacity;}
+#aa{ color:; background: none; transition: all ease .5s;}*/
+
+
+
+.a, .b, .c, .item1{ 
+    z-index: 2;
+    position: relative;
+    cursor:crosshair; 
+    background: none;
+	border: none;
+    margin: none;
+    padding: none;
+	font: inherit;
+	/*cursor: pointer;*/
+	outline: none;
+    color: #b7b7b7; font-size: 13px;
+    text-shadow:0px 0px 0.1px #b1b1b1;}
+
+.d {z-index: 3;
+    position: relative;
+    cursor:crosshair; 
+    background: none;
+	border: none;
+    margin: none;
+    padding: none;
+	font: inherit;
+	/*cursor: pointer;*/
+	outline: none;
+    color: #b7b7b7; font-size: 13px;
+    text-shadow:0px 0px 0.1px #b1b1b1;}
+
