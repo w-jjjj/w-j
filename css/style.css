@@ -84,7 +84,7 @@ body{
     flex-direction: raw;
     margin-top: 7px;
     padding-top: 2px;
-    border-top: 2px solid;
+    border-top: 1.2px solid;
 }
 /*#hiddencontent1{
     z-index: 1;
